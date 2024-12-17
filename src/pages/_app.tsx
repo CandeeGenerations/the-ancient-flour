@@ -1,5 +1,6 @@
 import AppLayout from '@/components/layout/app-layout'
 import {TooltipProvider} from '@/components/ui/tooltip'
+import ConvexClientProvider from '@/providers/convex.provider'
 import UserProvider from '@/providers/user.provider'
 import '@/styles/globals.css'
 import {NextPage} from 'next'
@@ -36,13 +37,15 @@ export default function App({Component, pageProps: {session, ...pageProps}}: App
 
   return (
     // <PostHogProvider client={posthog}>
-    <SessionProvider session={session}>
-      <UserProvider>
-        <Toaster position="bottom-right" expand={false} closeButton richColors />
+    <ConvexClientProvider>
+      <SessionProvider session={session}>
+        <UserProvider>
+          <Toaster position="bottom-right" expand={false} closeButton richColors />
 
-        <TooltipProvider>{getLayout(<Component {...pageProps} />)}</TooltipProvider>
-      </UserProvider>
-    </SessionProvider>
+          <TooltipProvider>{getLayout(<Component {...pageProps} />)}</TooltipProvider>
+        </UserProvider>
+      </SessionProvider>
+    </ConvexClientProvider>
     // </PostHogProvider>
   )
 }

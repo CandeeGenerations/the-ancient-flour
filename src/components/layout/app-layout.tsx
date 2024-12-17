@@ -1,10 +1,7 @@
 import {cn} from '@/lib/utils'
-import {useSettings} from '@/providers/settings.provider'
 import {DoubleArrowUpIcon, InfoCircledIcon} from '@radix-ui/react-icons'
 import _debounce from 'lodash/debounce'
-import Image from 'next/image'
 import Link from 'next/link'
-import {useRouter} from 'next/router'
 import React, {useEffect, useRef, useState} from 'react'
 
 import Copyright from './copyright'
@@ -17,9 +14,6 @@ interface ILayout {
 const AppLayout = ({children}: ILayout): React.ReactElement => {
   const scrollableRef = useRef<HTMLDivElement | null>(null)
   const [showScrollButton, setShowScrollButton] = useState<boolean>(false)
-  const {navigation} = useSettings()
-  const router = useRouter()
-  const loc = window.location
 
   const handleScroll = () => {
     if (scrollableRef.current) {
@@ -51,42 +45,8 @@ const AppLayout = ({children}: ILayout): React.ReactElement => {
             href="/home"
             className="group flex h-9 w-9 shrink-0 items-center justify-center gap-2 font-semibold  md:h-8 md:w-8 md:text-base"
           >
-            <Image
-              className="h-8 w-auto"
-              src="/images/nk-logo-white.png"
-              alt="NK Installations"
-              width={342}
-              height={287}
-            />
+            KAT
           </Link>
-
-          {navigation.map((item, index) => {
-            const current =
-              item.href === '/' && router.pathname === '/'
-                ? true
-                : item.href !== '/' && loc.pathname.startsWith(item.href)
-
-            return (
-              <Tooltip
-                key={index}
-                contentProps={{className: 'bg-muted-dark'}}
-                trigger={
-                  <Link
-                    href={item.href}
-                    className={cn(
-                      'flex h-9 w-9 items-center justify-center rounded-lg transition-colors md:h-8 md:w-8 hover:text-muted-foreground',
-                      current ? 'bg-accent text-accent-foreground' : 'text-muted-foreground hover:bg-accent',
-                    )}
-                  >
-                    <item.icon className="h-5 w-5" />
-                    <span className="sr-only">{item.name}</span>
-                  </Link>
-                }
-              >
-                {item.name}
-              </Tooltip>
-            )
-          })}
         </nav>
 
         <nav className="mt-auto flex flex-col items-center gap-4 px-2 sm:py-4">

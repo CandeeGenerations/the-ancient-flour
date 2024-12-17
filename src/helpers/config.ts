@@ -8,6 +8,9 @@ const config = {
   auth: {
     url: process.env.NEXTAUTH_URL,
   },
+  convex: {
+    url: process.env.NEXT_PUBLIC_CONVEX_URL,
+  },
   env: process.env.NODE_ENV,
   url: process.env.NEXT_PUBLIC_URL,
   lightboxKey: process.env.NEXT_PUBLIC_LIGHTBOX_KEY,

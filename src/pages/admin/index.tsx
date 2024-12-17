@@ -1,13 +1,19 @@
 import PageLayout from '@/components/layout/page-layout'
-import {api} from '@convex/_generated/api'
-import {useQuery} from 'convex/react'
+import P from '@/components/typography/p'
+import {useUser} from '@/providers/user.provider'
 import {useRouter} from 'next/router'
 import React, {useEffect} from 'react'
 import {toast} from 'sonner'
 
-const HomePage = (): React.ReactElement => {
+const AdminDashboard = (): React.ReactElement => {
   const router = useRouter()
-  const products = useQuery(api.products.get)
+  const {isSignedIn} = useUser()
+
+  useEffect(() => {
+    if (!isSignedIn) {
+      router.push('/auth/signin?redirect=/admin')
+    }
+  }, [isSignedIn])
 
   useEffect(() => {
     const notAuthorized = router.query['a']
@@ -18,13 +24,19 @@ const HomePage = (): React.ReactElement => {
     }
   }, [])
 
+  if (!isSignedIn) {
+    return null
+  }
+
   return (
-    <PageLayout title="Dashboard">
+    <PageLayout title="Admin Dashboard">
       <div className="grid grid-cols-1 sm:grid-cols-7 gap-6">
-        <div className="sm:col-span-5">{products?.map(({_id, name}) => <div key={_id}>{name}</div>)}</div>
+        <div className="sm:col-span-5">
+          <P>Coming soon...</P>
+        </div>
       </div>
     </PageLayout>
   )
 }
 
-export default HomePage
+export default AdminDashboard

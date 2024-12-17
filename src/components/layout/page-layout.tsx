@@ -1,7 +1,6 @@
 import {useUser} from '@/providers/user.provider'
 import {PinLeftIcon, UpdateIcon} from '@radix-ui/react-icons'
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -73,20 +72,7 @@ const PageLayout = ({
             side="left"
             className="sm:max-w-xs bg-muted-dark border-muted-dark x-white flex flex-1 flex-col gap-y-7"
           >
-            <nav className="grid gap-6 text-lg font-medium">
-              <Link
-                href="/home"
-                className="group flex h-10 w-10 shrink-0 items-center justify-center gap-2 text-lg font-semibold md:text-base"
-              >
-                <Image
-                  className="h-8 w-auto"
-                  src="/images/nk-logo-white.png"
-                  alt="NK Installations"
-                  width={342}
-                  height={287}
-                />
-              </Link>
-            </nav>
+            <nav className="grid gap-6 text-lg font-medium"></nav>
 
             <div className="mt-auto">
               <Copyright navigation />
