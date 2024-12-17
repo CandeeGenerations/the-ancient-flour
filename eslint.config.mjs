@@ -1,7 +1,7 @@
 import pluginJs from '@eslint/js'
+import nextPlugin from '@next/eslint-plugin-next'
 import globals from 'globals'
 import tseslint from 'typescript-eslint'
-import nextPlugin from '@next/eslint-plugin-next'
 
 export default [
   {
@@ -12,7 +12,7 @@ export default [
   ...tseslint.configs.recommended,
   {
     plugins: {
-      '@next/next': nextPlugin
+      '@next/next': nextPlugin,
     },
     rules: {
       '@typescript-eslint/ban-ts-comment': 0,
@@ -24,7 +24,7 @@ export default [
       '@next/next/no-unwanted-polyfillio': 'warn',
       '@next/next/no-sync-scripts': 'error',
       '@next/next/no-script-component-in-head': 'error',
-      
+
       'no-undef': 2,
       'prefer-const': 1,
       'no-unused-vars': 1,
