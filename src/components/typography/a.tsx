@@ -1,20 +1,21 @@
 import {cn} from '@/lib/utils'
+import type {LinkProps} from 'next/link'
+import Link from 'next/link'
 import React from 'react'
 
-const A = ({
-  children,
-  className,
-  onClick,
-  ...props
-}: React.DetailedHTMLProps<React.AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>): React.ReactElement => {
+type AProps = Omit<LinkProps, 'className' | 'onClick'> & {
+  className?: string
+  onClick?: React.MouseEventHandler<HTMLAnchorElement>
+  children: React.ReactNode
+}
+
+const cssClasses = 'underline underline-offset-4 text-secondary hover:text-secondary-800'
+
+const A = ({onClick, className, children, ...props}: AProps): React.ReactElement => {
   return (
-    <a
-      onClick={onClick}
-      className={cn('underline underline-offset-4 text-secondary hover:text-secondary-800', className)}
-      {...props}
-    >
+    <Link onClick={onClick} className={cn(cssClasses, className)} {...props}>
       {children}
-    </a>
+    </Link>
   )
 }
 
@@ -23,14 +24,9 @@ export const ExternalA = ({
   className,
   ...props
 }: React.DetailedHTMLProps<React.AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>): React.ReactElement => (
-  <A
-    className={cn('underline underline-offset-4 text-secondary hover:text-secondary-800', className)}
-    rel="noopener noreferrer"
-    target="_blank"
-    {...props}
-  >
+  <a className={cn(cssClasses, className)} rel="noopener noreferrer" target="_blank" {...props}>
     {children}
-  </A>
+  </a>
 )
 
 export default A

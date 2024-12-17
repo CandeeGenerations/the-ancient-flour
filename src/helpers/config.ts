@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const config = {
   azure: {
     clientId: process.env.AZURE_AD_CLIENT_ID,

@@ -2,6 +2,7 @@ import Button from '@/components/button'
 import WindowsIcon from '@/components/icons/windows-icon'
 import AuthLayout from '@/components/layout/auth-layout'
 import SmallLoader from '@/components/loader/small-loader'
+import A from '@/components/typography/a'
 import H2 from '@/components/typography/h2'
 import P from '@/components/typography/p'
 import {authOptions} from '@/pages/api/auth/[...nextauth]'
@@ -56,9 +57,9 @@ export default function SignIn() {
       </Button>
 
       <P className="text-center !mt-10">
-        <a href="/" className="text-blue-600 hover:text-blue-700">
+        <A href="/" className="text-blue-600 hover:text-blue-700">
           Return to Home Page
-        </a>
+        </A>
       </P>
     </>
   )
