@@ -1,8 +1,0 @@
-/node_modules
-.dockerignore
-.gitignore
-.prettierrc
-commitlint.config.js
-
-/.eslintrc.json
-/doppler.yaml
