@@ -1,0 +1,263 @@
+[
+  {
+    "minimumQuantity": "6 muffins",
+    "title": "Apple Fritter Muffins",
+    "price": 12.0,
+    "description": "Indulge in the cozy comfort of our Apple Fritter Muffins from Keepers at Home in Montclair, VA. Each muffin is a delightful blend of tender apples, warming spices, and a touch of sweet glaze, perfect for any time of the day. Please note, this product contains milk, eggs, and wheat.",
+    "featured": false,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "1 loaf",
+    "title": "Banana Bread",
+    "price": 10.0,
+    "description": "Savor the sweet, home-baked flavor of Keepers at Home's Banana Bread, straight from Montclair, VA. Our carefully crafted loaf exudes the comfort of the traditional recipe, elegantly balanced with the aromatic sweetness of ripe bananas. Please note that this bread is created in a kitchen that handles eggs and wheat, so be cautious if you have these specific allergies.",
+    "featured": true,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "1 loaf",
+    "title": "Banana Nut Bread",
+    "price": 12.0,
+    "description": "Discover the delicious richness of Keepers at Home's Banana Bread with Nuts, lovingly baked in small batches in historic Montclair, VA. Each moist and flavorful bite will treat your taste buds to a symphony of velvety mashed bananas, hearty wheat, and the alluring crunch of a medley of pecans and hazelnuts. Please note: This bread contains allergens like eggs, wheat, tree nuts, and peanuts.",
+    "featured": false,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "1 dozen",
+    "title": "Brown Farm Eggs",
+    "price": 6.0,
+    "description": "Introduce a farm-fresh touch to your meals with Keepers at Home's Eggs, sourced from their small home business in Montclair, VA. An integral part of any culinary journey, these eggs are synonymous with taste and quality, making them a must-have ingredient in your kitchen.",
+    "featured": true,
+    "hidden": false,
+    "category": "Other"
+  },
+  {
+    "minimumQuantity": "1 jar",
+    "title": "Caramel Sauce",
+    "price": 6.0,
+    "description": "Indulge in the rich, velvety delight of Keepers at Home's Caramel Sauce, crafted with love in Montclair, VA. Made from a time-honored family recipe, this luscious sauce adds a touch of decadence to your favorite desserts or morning coffee.",
+    "featured": false,
+    "hidden": false,
+    "category": "Other"
+  },
+  {
+    "minimumQuantity": "2 apples",
+    "title": "Carmel Apple",
+    "price": 10.0,
+    "description": "Discover the delightful taste of autumn with our Caramel Apple from Keepers at Home, handcrafted in Montclair, VA. Each crisp, juicy apple is enveloped in our rich, buttery caramel, creating an irresistible combination that's perfect for gifting or indulging yourself. Savory, sweet, and made with care, this treat captures the essence of home-made goodness in every bite.",
+    "featured": false,
+    "hidden": false,
+    "category": "Other"
+  },
+  {
+    "minimumQuantity": "1 cake",
+    "title": "Carrot Cake",
+    "price": 50.0,
+    "description": "Indulge in the homemade goodness of Keepers at Home's Carrot Cake, a moist and flavorful delight made fresh in Montclair, VA. Packed with wholesome carrots, and crafted with love, this delectable treat falls under our Breads category. Please note, our Carrot Cake contains eggs, wheat, and milk.",
+    "featured": false,
+    "hidden": false,
+    "category": "Desserts"
+  },
+  {
+    "minimumQuantity": "12 cookies",
+    "title": "Chocolate Chip Cookies",
+    "price": 20.0,
+    "description": "Indulge in Keepers at Home's lovingly handmade Chocolate Chip Cookies, a homely treat from Montclair, VA that makes dessert time special. Each bite of these delightful sweets, studded with chunks of delicious chocolate, will transport you to a world of luxurious warmth and comfort. Please note, they contain allergens such as milk, eggs, and wheat.",
+    "featured": true,
+    "hidden": false,
+    "category": "Desserts"
+  },
+  {
+    "minimumQuantity": "6 rolls",
+    "title": "Cinnamon Rolls",
+    "price": 25.0,
+    "description": "Experience the mouthwatering magic of homemade Cinnamon Rolls produced by Keepers at Home, a quaint food business nestled in the heart of Montclair, VA. Each roll is a delicate symphony of buttery dough, warm cinnamon, and a sweetly glazed finish, bringing the authentic taste of home baking right to your fingertips. Order today and let us fill your kitchen with a heartwarming aroma that invites comfort, nostalgia, and pure bliss.",
+    "featured": true,
+    "hidden": false,
+    "category": "Desserts"
+  },
+  {
+    "minimumQuantity": "1 cake",
+    "title": "Coffee Cake",
+    "price": 20.0,
+    "description": "Indulge in the homemade goodness of Keepers at Home's Coffee Cake, a perfect blend of moist, buttery cake with a sweet, cinnamon-infused crumb topping. Crafted with love in Montclair, VA, this delightful dessert is sure to become your go-to comfort treat. Contains eggs, wheat, and milk.",
+    "featured": false,
+    "hidden": false,
+    "category": "Desserts"
+  },
+  {
+    "minimumQuantity": "1 dozen",
+    "title": "Colored Eggs",
+    "price": 7.0,
+    "description": "Introduce a farm-fresh touch to your meals with Keepers at Home's Eggs, sourced from their small home business in Montclair, VA. An integral part of any culinary journey, these eggs are synonymous with taste and quality, making them a must-have ingredient in your kitchen.",
+    "featured": false,
+    "hidden": false,
+    "category": "Other"
+  },
+  {
+    "minimumQuantity": "6 muffins",
+    "title": "English Muffins",
+    "price": 10.0,
+    "description": "Indulge in the homemade goodness of Keepers at Home's English Muffins, lovingly crafted in Montclair, VA. Each muffin is a delightful blend of milk, eggs, and wheat, offering a perfect balance of fluffy texture and rich flavor. Ideal for breakfast or a snack, these English Muffins bring a touch of homemade comfort to your table.",
+    "featured": false,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "1 cup",
+    "title": "Granola",
+    "price": 7.0,
+    "description": "Experience the wholesome crunch and delightful flavors of Keepers at Home's Granola, handcrafted in Montclair, VA with love and quality in every batch. This irresistible blend of oats, nuts, and honey is your perfect companion for breakfasts or snacking, delivering a burst of energy in every bite. Please note: contains eggs, wheat, peanuts, and tree nuts.",
+    "featured": false,
+    "hidden": false,
+    "category": "Other"
+  },
+  {
+    "minimumQuantity": "1 loaf",
+    "title": "Lemon Loaf",
+    "price": 20.0,
+    "description": "Indulge in the zesty delight of our Lemon Loaf, freshly baked with the finest ingredients by Keepers at Home in Montclair, VA. This moist, tangy bread is perfect for any occasion, offering a burst of lemony goodness in every bite. Please note, our Lemon Loaf contains eggs and wheat.",
+    "featured": false,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "6 muffins",
+    "title": "Mango Muffins",
+    "price": 8.0,
+    "description": "Keepers at Home from Montclair, VA brings you their flavorful Mango Muffins, a delightful addition to your breakfast or coffee time. Baked with love, these moist muffins are packed with the tropical sweetness of ripe mangoes, offering a harmonious blend of fruity flavor and delectable bakery delight. Elevate your table with our Mango Muffins, a brilliant representative from our Breads category, for a homemade gastronomical experience perfect for any time of the day.",
+    "featured": false,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "6 muffins",
+    "title": "Mango Muffins",
+    "price": 8.0,
+    "description": "Keepers at Home from Montclair, VA brings you their flavorful Mango Muffins, a delightful addition to your breakfast or coffee time. Baked with love, these moist muffins are packed with the tropical sweetness of ripe mangoes, offering a harmonious blend of fruity flavor and delectable bakery delight. Elevate your table with our Mango Muffins, a brilliant representative from our Breads category, for a homemade gastronomical experience perfect for any time of the day.",
+    "featured": false,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "2 servings",
+    "title": "Mango Sticky Rice",
+    "price": 10.0,
+    "description": "Indulge in the authentic, tropical flavors of Keepers at Home's Mango Sticky Rice, sourced straight from the local Montclair homes in Virginia. This delightful dessert pairs juicy, ripe mangoes with a glaze of sweet coconut milk and flavorful sticky rice, culminating in a gastronomic experience that's perfect to end any meal. Order yours now and savor the handmade, heart-warming difference from our small food-oriented business - all in the comfort of your own home!",
+    "featured": false,
+    "hidden": false,
+    "category": "Desserts"
+  },
+  {
+    "minimumQuantity": "1 mango",
+    "title": "Mangos",
+    "price": 2.0,
+    "description": "Sink into paradise with the sweet, succulent Mangos from Keepers at Home, your local food artisans in Montclair, VA. Plucked and packed at the peak of freshness, our Mangos offer a tropical twist to any dish, snack or smoothie. Experience nature's bounty and make every bite an exotic expedition with our quality, glowing sun-kissed Mangos.",
+    "featured": false,
+    "hidden": false,
+    "category": "Produce"
+  },
+  {
+    "minimumQuantity": "6 rolls",
+    "title": "Orange Rolls",
+    "price": 25.0,
+    "description": "Indulge in the heavenly taste of Keepers at Home's Orange Rolls, handcrafted in Montclair, VA, for the perfect fusion of citrus zest and delicate sweetness. Each roll is a soft, fluffy masterpiece, generously glazed with a tangy orange icing that perfectly complements its rich, buttery layers. Please be aware that these delightful desserts contain milk, eggs, and wheat.",
+    "featured": false,
+    "hidden": false,
+    "category": "Desserts"
+  },
+  {
+    "minimumQuantity": "1 loaf",
+    "title": "Pumpkin Bread",
+    "price": 10.0,
+    "description": "Indulge in the comforting flavors of autumn with Keepers at Home's Pumpkin Bread, crafted in Montclair, VA. This moist and aromatic loaf combines rich pumpkin and warming spices to create a perfect treat for any time of day. Please note, this delightful bread contains eggs and wheat.",
+    "featured": false,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "6 muffins",
+    "title": "Pumpkin Cheesecake Muffins",
+    "price": 18.0,
+    "description": "Indulge in the cozy, autumn-inspired flavors of our Pumpkin Cheesecake Muffins, crafted by Keepers at Home in Montclair, VA. Each muffin blends velvety pumpkin puree with a rich, creamy cheesecake center, delivering a delightful fusion of spice and sweetness in every bite. Please note: this delicious treat contains milk, eggs, and wheat.",
+    "featured": false,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "6 muffins",
+    "title": "Pumpkin Chocolate Chip Muffins",
+    "price": 18.0,
+    "description": "Indulge in the cozy flavors of autumn with Keepers at Home's Pumpkin Chocolate Chip Muffins, a delightful blend of spiced pumpkin and rich chocolate chips that make every bite a little piece of heaven. Freshly baked in Montclair, VA, these moist muffins are perfect for breakfast or an anytime treat. Please note: contains milk, eggs, and wheat.",
+    "featured": false,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "6 rolls",
+    "title": "Pumpkin Rolls",
+    "price": 25.0,
+    "description": "Indulge in the cozy flavors of fall with our Pumpkin Rolls from Keepers at Home, crafted lovingly in Montclair, VA. These soft, spiced rolls are swirled with a decadent cream cheese filling, creating the perfect balance of sweetness and warmth in every bite. Please note, our Pumpkin Rolls contain milk, eggs, and wheat allergens.",
+    "featured": false,
+    "hidden": false,
+    "category": "Desserts"
+  },
+  {
+    "minimumQuantity": "1 tomato",
+    "title": "Tomatoes",
+    "price": 2.0,
+    "description": "Keepers at Home are proud to offer you fresh, hand-picked tomatoes directly from our sustainable farms in VA. Bursting with natural sweetness, each ripe, juicy tomato is a testament to our passion for quality and homegrown goodness. These premium tomatoes are perfect for cooking, salads, or enjoying straight from the vine, adding a vibrant, healthy touch to your meals.",
+    "featured": false,
+    "hidden": false,
+    "category": "Produce"
+  },
+  {
+    "minimumQuantity": "Stack of 10",
+    "title": "Tortillas",
+    "price": 7.0,
+    "description": "Keepers at Home's Tortillas, based in the culinary hub of Montclair, VA, provide your table with authentic, home-style bread that will bring your meals to life. Each tortilla is expertly crafted in our home kitchen, using traditional methods and the best of wheat ingredients to deliver an uncompromisable taste experience. Note: Our beloved customers with wheat allergies should consume with caution due to the wheat allergens present.",
+    "featured": false,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "1 loaf",
+    "title": "White Sandwich Bread",
+    "price": 8.0,
+    "description": "Get your hands on Keepers at Home's Sandwich Bread, freshly baked in Montclair, Virginia. This delicious bread is lovingly crafted from high-quality ingredients, with rich flavors perfect for elevating your sandwich game. Please note that this product contains allergens such as eggs and wheat.",
+    "featured": false,
+    "hidden": false,
+    "category": "Breads and Muffins"
+  },
+  {
+    "minimumQuantity": "16 cookies and 6 cupcakes",
+    "title": "Patriotic Bundle",
+    "price": 20.0,
+    "description": "",
+    "featured": false,
+    "hidden": true,
+    "category": "Desserts"
+  },
+  {
+    "minimumQuantity": "1 dozen",
+    "title": "Patriotic Cookies",
+    "price": 20.0,
+    "description": "Experience a delicious tribute to America with Keepers at Home's Patriotic Cookies, lovingly crafted in Montclair, VA. Each delightful morsel, categorized under Desserts, showcases a sweet extravagance that reflects our national pride while satisfying your sweet tooth. Please note, these cookies contain allergens such as milk, eggs and wheat.",
+    "featured": false,
+    "hidden": true,
+    "category": "Desserts"
+  },
+  {
+    "minimumQuantity": "1 dozen",
+    "title": "Patriotic Cupcakes",
+    "price": 20.0,
+    "description": "Experience the sweetness of America with Keepers at Home's Patriotic Cupcakes. Baked in the cozy kitchen of Montclair, VA, these enticing desserts burst with a luscious mix of milk, eggs, and wheat—a delight not just for the taste buds but for the eyes, too, with their enchanting red, white, and blue swirls. Please note that they contain milk, eggs, and wheat allergens.",
+    "featured": false,
+    "hidden": true,
+    "category": "Desserts"
+  }
+]

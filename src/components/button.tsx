@@ -30,7 +30,7 @@ const Button = React.forwardRef<HTMLButtonElement, IButton>(
             .with('ghost', () => 'border-transparent text-accent-foreground')
             .with('outline', () => 'border-input text-accent-foreground')
             .otherwise(() => 'border-primary text-primary'),
-          'border bg-background shadow-sm hover:bg-accent',
+          'border rounded bg-background shadow-sm hover:bg-accent',
         )
       : props.className
 
