@@ -3,31 +3,31 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
-version: 2
-updates:
-  - package-ecosystem: 'npm'
-    directory: '/'
-    pull-request-branch-name:
-      separator: '-' # Use hyphens to separate branch name segments
-    schedule:
-      interval: 'weekly'
-    reviewers:
-      - 'cgen01'
-    ignore:
-      - dependency-name: 'lightbox.js-react'
-    groups:
-      catchall:
-        patterns:
-          - '*'
-  - package-ecosystem: 'github-actions' # Check for updates to GitHub Actions every week
-    directory: '/'
-    pull-request-branch-name:
-      separator: '-'
-    schedule:
-      interval: 'weekly'
-    reviewers:
-      - 'cgen01'
-    groups:
-      catchall:
-        patterns:
-          - '*'
+# version: 2
+# updates:
+#   - package-ecosystem: 'npm'
+#     directory: '/'
+#     pull-request-branch-name:
+#       separator: '-' # Use hyphens to separate branch name segments
+#     schedule:
+#       interval: 'monthly'
+#     reviewers:
+#       - 'cgen01'
+#     ignore:
+#       - dependency-name: 'lightbox.js-react'
+#     groups:
+#       catchall:
+#         patterns:
+#           - '*'
+#   - package-ecosystem: 'github-actions' # Check for updates to GitHub Actions every week
+#     directory: '/'
+#     pull-request-branch-name:
+#       separator: '-'
+#     schedule:
+#       interval: 'monthly'
+#     reviewers:
+#       - 'cgen01'
+#     groups:
+#       catchall:
+#         patterns:
+#           - '*'
