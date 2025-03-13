@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Button, {ButtonType} from '../button'
+import Button, {ButtonType} from '../button/button'
 import Dialog from './dialog'
 
 export interface IConfirmDialog {
@@ -13,7 +13,7 @@ export interface IConfirmDialog {
     loadingText?: string
   }
   confirmProps?: {
-    onConfirm: () => Promise<boolean>
+    onConfirm: () => Promise<boolean | void>
     confirmText?: string
     confirmType?: ButtonType
   }

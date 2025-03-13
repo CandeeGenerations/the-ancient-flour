@@ -1,3 +1,4 @@
+import {ISelectBoxValues} from '@/components/form/select-box'
 import {yupResolver} from '@hookform/resolvers/yup'
 import {format} from 'date-fns'
 import {NextRouter} from 'next/router'
@@ -6,6 +7,10 @@ import {toast} from 'sonner'
 import * as yup from 'yup'
 
 import {DEFAULT_DATE_FORMAT} from './constants'
+
+export function isStringArray(values: (string | ISelectBoxValues)[]): values is string[] {
+  return values.every((x) => typeof x === 'string')
+}
 
 export const popToast = async (router: NextRouter, entity: string, pathname?: string) => {
   if (router.query['s'] === 'true') {

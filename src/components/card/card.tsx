@@ -3,8 +3,8 @@ import {cn} from '@/lib/utils'
 import React from 'react'
 import {match} from 'ts-pattern'
 
-import Button, {IButton} from './button'
-import ConfirmDialog from './dialog/confirm-dialog'
+import Button, {IButton} from '../button/button'
+import {ConfirmDialog} from '../dialog'
 
 export interface ICard extends React.HTMLAttributes<HTMLDivElement> {
   title?: string
@@ -62,7 +62,7 @@ const Card = React.forwardRef<HTMLDivElement, ICard>(
             <CardContent className={cn(!title && 'pt-6', contentClassName)}>{children}</CardContent>
           )}
 
-          {(submitProps || deleteProps?.onDelete) && (
+          {(submitProps?.onSubmit || deleteProps?.onDelete) && (
             <CardFooter className="border-t px-6 py-4 flex">
               <div className="sm:flex-1">
                 {onBack && <Button onClick={onBack}>Back</Button>}

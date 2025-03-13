@@ -1,5 +1,5 @@
-import Button from '@/components/button'
 import UnauthLayout from '@/components/layout/unauth-layout'
+import {Button} from '@/components/ui/button'
 import Link from 'next/link'
 import React, {ReactElement} from 'react'
 

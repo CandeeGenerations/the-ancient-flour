@@ -1,4 +1,4 @@
-import Button from '@/components/button'
+import {Button} from '@/components/ui/button'
 import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} from '@/components/ui/card'
 import {api} from '@convex/_generated/api'
 import {useQuery} from 'convex/react'
@@ -6,7 +6,7 @@ import Image from 'next/image'
 import {useRouter} from 'next/router'
 import {ReactElement, useMemo} from 'react'
 
-import {PublicLayout} from '../components/layout/public-layout'
+import {PublicLayout} from '../components/layout'
 
 const HomePage = () => {
   const router = useRouter()

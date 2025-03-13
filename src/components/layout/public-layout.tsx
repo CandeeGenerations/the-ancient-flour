@@ -4,7 +4,7 @@ interface PublicLayoutProps {
   children: ReactElement
 }
 
-export function PublicLayout({children}: PublicLayoutProps) {
+const PublicLayout = ({children}: PublicLayoutProps) => {
   return (
     <div className="min-h-screen">
       {/* Navbar can go here if needed */}
@@ -13,3 +13,5 @@ export function PublicLayout({children}: PublicLayoutProps) {
     </div>
   )
 }
+
+export default PublicLayout

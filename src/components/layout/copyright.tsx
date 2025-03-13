@@ -2,8 +2,7 @@ import {cn} from '@/lib/utils'
 import {getYear} from 'date-fns'
 import React from 'react'
 
-import {ExternalA} from '../typography/a'
-import P from '../typography/p'
+import {A, P} from '../typography'
 
 export interface ICopyright {
   navigation?: boolean
@@ -18,9 +17,9 @@ const Copyright = ({navigation = false}: ICopyright): React.ReactElement => {
 
       <P className={cn(navigation && 'text-muted')}>
         Powered by{' '}
-        <ExternalA href="https://candeegenerations.com" target="_blank" rel="noreferrer noopener">
+        <A href="https://candeegenerations.com" target="_blank" rel="noreferrer noopener">
           Candee Generations
-        </ExternalA>
+        </A>
       </P>
 
       <P className={cn(navigation && 'text-muted')}>All rights reserved. (v{version || '_dev'})</P>

@@ -4,7 +4,7 @@ import React from 'react'
 import {VariantProps} from 'tailwind-variants'
 import {match} from 'ts-pattern'
 
-import {ButtonProps, Button as CnButton, buttonVariants} from './ui/button'
+import {ButtonProps, Button as CnButton, buttonVariants} from '../ui/button'
 
 export type ButtonType = VariantProps<typeof buttonVariants>['variant']
 export interface IButton extends ButtonProps {
@@ -30,7 +30,7 @@ const Button = React.forwardRef<HTMLButtonElement, IButton>(
             .with('ghost', () => 'border-transparent text-accent-foreground')
             .with('outline', () => 'border-input text-accent-foreground')
             .otherwise(() => 'border-primary text-primary'),
-          'border rounded bg-background shadow-sm hover:bg-accent',
+          'border bg-background shadow-sm hover:bg-accent',
         )
       : props.className
 

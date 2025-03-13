@@ -1,4 +1,4 @@
-import Button from '@/components/button'
+import {Button} from '@/components/button'
 import WindowsIcon from '@/components/icons/windows-icon'
 import AuthLayout from '@/components/layout/auth-layout'
 import SmallLoader from '@/components/loader/small-loader'
