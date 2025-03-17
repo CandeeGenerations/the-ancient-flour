@@ -1,0 +1,68 @@
+# General Code Style & Formatting
+
+- Use English for all code and documentation.
+- Always declare the type of each variable and function (parameters and return value).
+- Avoid using any.
+- Create necessary types.
+- Use JSDoc to document public classes and methods.
+- Use the `export default` pattern.
+- Only update the files that are related to the discussion.
+
+# Naming Conventions
+
+- Use PascalCase for classes.
+- Use camelCase for variables, functions, and methods.
+- Use kebab-case for file and directory names.
+- Use kebab-case for React component file names (e.g., user-card.tsx, not UserCard.tsx).
+- Use UPPERCASE for environment variables.
+- Avoid magic numbers and define constants.
+
+# Functions & Logic
+
+- Keep functions short and single-purpose (<20 lines).
+- Avoid deeply nested blocks by:
+  - Using early returns.
+  - Extracting logic into utility functions.
+- Use higher-order functions (map, filter, reduce) to simplify logic.
+- Use arrow functions for simple cases (<3 instructions), named functions otherwise.
+- Use default parameter values instead of null/undefined checks.
+- Use RO-RO (Receive Object, Return Object) for passing and returning multiple parameters.
+
+# Data Handling
+
+- Avoid excessive use of primitive types; encapsulate data in composite types.
+- Avoid placing validation inside functions—use classes with internal validation instead.
+- Prefer immutability for data:
+  - Use readonly for immutable properties.
+  - Use as const for literals that never change.
+
+# Project Structure & Architecture
+
+- Follow Next.js patterns and use the App Router.
+
+# Styling & UI
+
+- Use Tailwind CSS for styling.
+- Utilize the components from the src/components directory.
+- If that component doesn't exist, use Shadcn UI for that component.
+
+# Forms
+
+- Use React Hook Form for form handling.
+- Use Zod for validation.
+
+# State Management & Logic
+
+- Use React Context for state management.
+
+# Project
+
+This project is a store front for a Cottage Bakery (home baker). We sell our products online for people to pick up in person. We do not do online payment transactions. The only payment options are cash, check, Apple Cash, Venmo, PayPal, or Zelle. These can be listed as options during the checkout process. But payment will be made outside of this project. Payment can be recorded in the admin dashboard.
+
+This project will consist of a frontend and admin dashboard. The frontend will be a store front for the bakery. The admin dashboard will be used to manage the products, orders, and customers. There will be products that can be search, filtered, and sorted on the frontend pages. A customer will be able to add products to their cart and checkout.
+
+The admin pages will include a dashboard to show various stats, recent orders, and charts. The admin will be able to add, edit, and delete products. The admin will also be able to add, edit, and delete customers. The admin will be able to add, edit, and delete orders.
+
+The admin should be able to see all the products, orders, and customers in the admin dashboard. The admin should be able to search, filter, and sort the products, orders, and customers. The admin should be able to see the expenses versus the income for each product. The admin should have a chart that shows the sales of each product. The admin should have a chart that shows income and expenses to depict the profit or loss.
+
+The project will also need email notification for alerts to the admin when a new order is placed, alerts to the customer when an order is placed, and alerts to the customer when an order is completed.

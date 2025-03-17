@@ -45,6 +45,8 @@ const Button = React.forwardRef<HTMLButtonElement, IButton>(
       props.children
     )
 
+    props.className = cn(props.className, 'cursor-pointer')
+
     return <CnButton ref={ref} {...props} />
   },
 )

@@ -1,4 +1,4 @@
-import UnauthLayout from '@/components/layout/unauth-layout'
+import {PublicLayout} from '@/components/layout'
 import {Button} from '@/components/ui/button'
 import Link from 'next/link'
 import React, {ReactElement} from 'react'
@@ -20,7 +20,7 @@ const FourOhFour = (): React.ReactElement => {
             </div>
 
             <div className="mt-10 flex space-x-3 sm:border-l sm:border-transparent sm:pl-6">
-              <Link href="/home">
+              <Link href="/">
                 <Button>Go back home</Button>
               </Link>
             </div>
@@ -31,7 +31,7 @@ const FourOhFour = (): React.ReactElement => {
   )
 }
 FourOhFour.getLayout = function getLayout(page: ReactElement) {
-  return <UnauthLayout noCard>{page}</UnauthLayout>
+  return <PublicLayout>{page}</PublicLayout>
 }
 
 export default FourOhFour
